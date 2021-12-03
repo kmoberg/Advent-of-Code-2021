@@ -30,7 +30,6 @@ func openFile(path string) ([]string, error) {
 	return lines, scanner.Err()
 }
 
-
 func main() {
 	file, err := openFile("input.txt")
 	if err != nil {
